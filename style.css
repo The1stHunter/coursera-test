@@ -1,7 +1,37 @@
+body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
 h1 {
 	text-align: center;
 }
 
+ul {
+	padding-left: 0px;
+}
+
 li {
 	list-style: none;
+	text-align: center;
+}
+
+li:nth-child(odd) {
+	background-color: #ccc;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #000;
+	border: 1px solid #000;
+	display: block;
+	margin-bottom: 1px;
+}
+
+a:hover, a:active {
+	background-color: #000;
+	color: #fff;
+}
+
+p {
+	text-align: right;
 }
